@@ -51,13 +51,7 @@ function get_sets()
 
 	organizer_items = {
 		"Airmid's Gorget",
-		"Tumult's Blood",
-		"Sarama's Hide",
-		"Hidhaegg's Scale",
-		"Sovereign's Hide",
-		"Grape Daifuku",
-		"Soy Ramen",
-		"G. Curry Bun +1",
+		"Tumult's Blood",KLG./LIGL.KG. Curry Bun +1",
 		"Pukatrice Egg",
 		"Moogle Amp.",
 		"Popo. con Queso",
