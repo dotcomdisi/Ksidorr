@@ -2,13 +2,7 @@
 --Salidar
 
 -- Load and initialize the include file.
-include('Mirdain-Include')
-
---Set to ingame lockstyle and Macro Book/Set
-LockStylePallet = "11"
-MacroBook = "8"
-MacroSet = "2"
-
+include('Mirdain-IJUYTG,UTGUIG,U
 -- Use "gs c food" to use the specified food item 
 Food = "Sublime Sushi"
 
@@ -454,4 +448,5 @@ function pet_midcast_custom(spell)
 	equipSet = {}
 
 	return equipSet
+
 end
