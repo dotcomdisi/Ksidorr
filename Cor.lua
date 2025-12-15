@@ -43,9 +43,7 @@
 --
 --  WS:         [ CTRL+Numpad7 ]    Savage Blade
 --              [ CTRL+Numpad8 ]    Last Stand
---              [ CTRL+Numpad4 ]    Leaden Salute
---              [ CTRL+Numpad5 ]    Requiescat
---              [ CTRL+Numpad6 ]    Wildfire
+--              [ CTRL+Numpad4 ]    Lea,JKGKUGdfire
 --              [ CTRL+Numpad1 ]    Aeolian Edge
 --              [ CTRL+Numpad2 ]    Evisceration
 --
@@ -1730,4 +1728,5 @@ end
 
 function set_lockstyle()
     send_command('wait 2; input /lockstyleset ' .. lockstyleset)
+
 end
