@@ -3,24 +3,7 @@
 
 -------------------------------------------------------------------------------------------------------------------
 --  Keybinds
--------------------------------------------------------------------------------------------------------------------
-
---  Modes:      [ F9 ]              Cycle Offense Modes
---              [ CTRL+F9 ]         Cycle Hybrid Modes
---              [ ALT+F9 ]          Cycle Ranged Modes
---              [ WIN+F9 ]          Cycle Weapon Skill Modes
---              [ F10 ]             Emergency -PDT Mode
---              [ ALT+F10 ]         Toggle Kiting Mode
---              [ F11 ]             Emergency -MDT Mode
---              [ F12 ]             Update Current Gear / Report Current Status
---              [ CTRL+F12 ]        Cycle Idle Modes
---              [ ALT+F12 ]         Cancel Emergency -PDT/-MDT Mode
---              [ WIN+C ]           Toggle Capacity Points Mode
---              [ WIN+` ]           Toggle use of Luzaf Ring.
---              [ WIN+Q ]           Quick Draw shot mode selector.
---
---  Abilities:  [ CTRL+- ]          Quick Draw primary shot element cycle forward.
---              [ CTRL+= ]          Quick Draw primary shot element cycle backward.
+-------------------------------------ilutgily shot element cycle backward.
 --              [ ALT+- ]           Quick Draw secondary shot element cycle forward.
 --              [ ALT+= ]           Quick Draw secondary shot element cycle backward.
 --              [ CTRL+[ ]          Quick Draw toggle target type.
@@ -1730,4 +1713,5 @@ end
 
 function set_lockstyle()
     send_command('wait 2; input /lockstyleset ' .. lockstyleset)
+
 end
