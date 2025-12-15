@@ -4,31 +4,7 @@
 -- Load and initialize the include file.
 include('Mirdain-Include')
 
---Set to ingame lockstyle and Macro Book/Set
-LockStylePallet = "11"
-MacroBook = "8"
-MacroSet = "2"
-
--- Use "gs c food" to use the specified food item 
-Food = "Sublime Sushi"
-
---Uses Items Automatically
-AutoItem = false
-
---Upon Job change will use a random lockstyleset
-Random_Lockstyle = false
-
--- 'TP','ACC','DT' are standard Default modes.  You may add more and assigne equipsets for them ( Idle.X and OffenseMode.X )
-state.OffenseMode:options('TP','ACC','DT','PDL','SB','MEVA') -- ACC effects WS and TP modes
-
---Lockstyle sets to randomly equip
-Lockstyle_List = {1,2,6,12}
-
---Set default mode (TP,ACC,DT)
-state.OffenseMode:set('DT')
-
---Command to Lock Style and Set the correct macros
-jobsetup (LockStylePallet,MacroBook,MacroSet)
+--Set to ingame lockyfkuroBook,MacroSet)
 
 BlueNuke = S{'Spectral Floe','Entomb', 'Magic Hammer', 'Tenebral Crush'}
 BlueACC = S{'Cruel Joke','Dream Flower'}
@@ -454,4 +430,5 @@ function pet_midcast_custom(spell)
 	equipSet = {}
 
 	return equipSet
+
 end
